@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "6.9.5"
+  - "4.4.3"
 
 sudo: false
 
@@ -15,6 +15,7 @@ before_install:
 install:
   - npm install -g bower
   - npm install
+  - npm install phantomjs
   - bower install
 
 script:

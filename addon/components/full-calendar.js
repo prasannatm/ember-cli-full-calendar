@@ -215,7 +215,7 @@ export default Component.extend({
       },
 
       // Day Rendering
-      dayRender: (date, element, view) => {
+      dayRender: (date, element) => {
         this.sendAction('dayRender', date, element);
       },
 
